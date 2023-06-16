@@ -11,7 +11,7 @@
 <body>
     <form method="post" action="validar.php">
         <input type="email" placeholder="e-mail" name="usuario" require>
-        <input type="passaword" placeholder="Senha" name="senha" readonly maxlength="20">
+        <input type="password" placeholder="Senha" name="senha" maxlength="20">
         <button type="subimit">Acessar Sites</button>
     </form>
 </body>

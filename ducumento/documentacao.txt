@@ -1,0 +1,10 @@
+selecionar.php --> listagem de contatos, botaão para cadastro de um novo cliente 
+
+novo.php --> formulario para cadstro de um novo cliente
+inserir.php--> realizar a inserção no BD
+
+editar.php--> formulario com os dados dos clientes preenchido pronto para novas modificação
+
+deletar.php--> página que realiza a exclusão dos dados alunos 
+
+visualizar.php --> página com os dadados de um único cliente

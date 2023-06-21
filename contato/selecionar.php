@@ -22,23 +22,23 @@ include "../includes/conexao.php";
     <?php
     $sql = "select * from cliente";
     $todos_os_clientes = mysqli_query($conexao, $sql);
-    while($um_cliente = mysqli_fetch_assoc($todos_os_clientes)):
+    while ($um_cliente = mysqli_fetch_assoc($todos_os_clientes)) :
     ?>
-    <tr>
-        <td><?php  echo $um_cliente ['id'];?></td>
-        <td><?php  echo $um_cliente ['e-mail'];?></td>
-        <td><?php  echo $um_cliente ['nome'];?></td>
-        <td><?php  echo $um_cliente ['contato'];?></td>
-        <td><?php  echo $um_cliente ['mensagem'];?></td>
-        <!-- add foto img src="php echo +variavel [nome do campo]"
+        <tr>
+            <td><?php echo $um_cliente['id']; ?></td>
+            <td><?php echo $um_cliente['email']; ?></td>
+            <td><?php echo $um_cliente['nome']; ?></td>
+            <td><?php echo $um_cliente['contato']; ?></td>
+            <td><?php echo $um_cliente['mensagem']; ?></td>
+            <!-- add foto img src="php echo +variavel [nome do campo]"
         img src="php $um_portifolio[foto1];php "whidth = "100" "
         -->
-        <td>
-            <a href="#">Visualizar</a>
-            <a href="#">editar</a>
-            <a href="#">excluir</a>
-        </td>
-    </tr>
+            <td>
+                <a href="#">Visualizar</a>
+                <a href="#">editar</a>
+                <a href="deletar.php?id=<?php echo $um_cliente['id'] ?>">excluir</a>
+            </td>
+        </tr>
     <?php
     endwhile;
     ?>
@@ -46,5 +46,7 @@ include "../includes/conexao.php";
 
 
 <?php
+
+mysqli_close($conexao);
 include "../includes/rodape.php";
 ?>

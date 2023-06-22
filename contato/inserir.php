@@ -1,6 +1,5 @@
 <?php
 include "../includes/conexao.php";
-
 $email = $_POST["email"];
 $nome = $_POST["nome"];
 $contato = $_POST["contato"];
@@ -10,4 +9,5 @@ mysqli_query($conexao, $sql);
 mysqli_close($conexao);
 
 header("location: selecionar.php");
+
 ?>

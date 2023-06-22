@@ -8,24 +8,25 @@ include "../includes/menu.php";
 
     <div class="row g-3">
         <div class="col-6">
-            E-mail: <input class="form-control" placeholder="E-mail" required maxlength="150">
+            E-mail: <input class="form-control" name="email" placeholder="E-mail" required maxlength="150">
         </div>
         <div class="row">
             <div class="col-6">
-                Nome: <input class="form-control" placeholder="Nome" required maxlength="150">
+                Nome: <input class="form-control" name="nome" placeholder="Nome" required maxlength="150">
             </div>
         </div>
         <div class="row">
             <div class="col-6">
-                Contato: <input class="form-control" placeholder="Contato" required maxlength="150">
+                Contato: <input class="form-control" name="contato" placeholder="Contato" required maxlength="150">
             </div>
         </div>
         <div class="row">
             <div class="col-6">
-                Menssagem: <textarea class="form-control" placeholder="Menssagem" required maxlength="150"></textarea>
+                Mensagem: <textarea class="form-control" name="mensagem" placeholder="Mensagem" required maxlength="150"></textarea>
             </div>
         </div>
     </div>
+    <button type="submit">enviar</button>
 </form>
 <!-- <form action="inserir.php" method="post">
     E-mail: <input name="email" required maxlength="150">

@@ -34,9 +34,9 @@ include "../includes/conexao.php";
         img src="php $um_portifolio[foto1];php "whidth = "100" "
         -->
             <td>
-                <a href="#">Visualizar</a>
-                <a href="#">editar</a>
-                <a href="deletar.php?id=<?php echo $um_cliente['id'] ?>">excluir</a>
+                <a href="visualizar.php?id=<?php echo $um_cliente['id'] ?>">Visualizar</a>
+                <a href="editar.php?id=<?php echo $um_cliente['id']?>">editar</a>
+                <a href="deletar.php?id=<?php echo $um_cliente['id']?>">excluir</a>
             </td>
         </tr>
     <?php

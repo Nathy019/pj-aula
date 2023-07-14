@@ -1,6 +1,6 @@
 <?php
-include "../includes/cabecalho.php";
-include "../includes/menu.php";
+include "../includes-site/cabecalho.php";
+
 ?>
 <form class="container" action="inserir.php" method="post">
 <h1>Novo Contato</h1>

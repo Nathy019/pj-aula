@@ -1,5 +1,5 @@
 <?php
-include "./includes-site/cabecalho.php"
+include "./includes/cabecalho.php"
 ?>
 <!-- inicio carossel -->
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -68,7 +68,7 @@ include "./includes-site/cabecalho.php"
 
 <!-- inclui os cards do portfolio -->
 <?php
-include "./includes-site/modal.php"
+include "./includes/modal.php"
 ?>
 
 <!-- começo dos cards de biosegurança e materiais -->
@@ -125,15 +125,6 @@ include "./includes-site/modal.php"
     </div>
 </div>
 <!-- fim dos cards -->
-
-<!--
-
-arrumar o footer deixar o mapa do local colocar o contato de telefone e as formas de pagamento 
-
--->
-
-
 <?php
-include "./includes-site/rodape.php"
-
+include "./includes/rodape.php"
 ?>

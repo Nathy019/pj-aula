@@ -1,5 +1,4 @@
 <?php
-include "../includes-/cabecalho.php";
 include "../includes/menu.php";
 ?>
 <div class="container-fluid">
@@ -11,21 +10,17 @@ include "../includes/menu.php";
         <div class="row text-center">
             <div class="col m-5 border rounded pt-3 pb-3">
                 <a href="" class="btn">
-                    <img src="img/escudos.png">
+                    <img src="../imagem/icon_port.png">
                     <br>
-                    <strong>Portifolio</strong>
+                    <p class="text-light">Portifolio</p>
                 </a>
             </div>
             <div class="col m-5 border rounded pt-3 pb-3">
-                <a href="" class="btn">
-                    <img src="img/jogador.png">
+                <a href="../contato/selecionar.php" class="btn">
+                    <img src="../imagem/icon_contato.png">
                     <br>
-                    <strong>Contato</strong>
+                    <p class="text-light">Contato</p>
                 </a>
         </div>
 </main>
 
-<?php
-include "../includes/rodape.php"
-
-?>

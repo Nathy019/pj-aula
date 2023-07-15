@@ -1,17 +1,16 @@
 <?php
-include "../includes/cabecalho.php";
 include "../includes/menu.php";
 include "../includes/conexao.php";
 
 ?>
 
-<h1>Módolo de contatos</h1>
-<p>
+<h1 class="text-center">Módolo de contatos</h1>
+<p class="text-center">
     <a href="novo.php"> Adicionar um novo contato</a>
 </p>
-<h2>Listagem contato</h2>
-<table border="1">
-    <tr>
+<h2 class="text-center">Listagem contato</h2>
+<table class="table">
+    <tr class="table-dark">
         <td>Código</td>
         <td>E_mail</td>
         <td>Nome</td>
@@ -24,7 +23,7 @@ include "../includes/conexao.php";
     $todos_os_clientes = mysqli_query($conexao, $sql);
     while ($um_cliente = mysqli_fetch_assoc($todos_os_clientes)) :
     ?>
-        <tr>
+        <tr class="table-light">
             <td><?php echo $um_cliente['id']; ?></td>
             <td><?php echo $um_cliente['email']; ?></td>
             <td><?php echo $um_cliente['nome']; ?></td>
@@ -34,9 +33,9 @@ include "../includes/conexao.php";
         img src="php $um_portifolio[foto1];php "whidth = "100" "
         -->
             <td>
-                <a href="visualizar.php?id=<?php echo $um_cliente['id'] ?>">Visualizar</a>
-                <a href="editar.php?id=<?php echo $um_cliente['id']?>">editar</a>
-                <a href="deletar.php?id=<?php echo $um_cliente['id']?>">excluir</a>
+                <a href="visualizar.php?id=<?php echo $um_cliente['id'] ?>"><img src="../imagem/icon_visualizar.png" width="25px"></a>
+                <a href="editar.php?id=<?php echo $um_cliente['id']?>"><img src="../imagem/icon_edit.png" width="25px"></a>
+                <a href="deletar.php?id=<?php echo $um_cliente['id']?>"><img src="../imagem/delet.png" width="25px"></a>
             </td>
         </tr>
     <?php
@@ -46,7 +45,5 @@ include "../includes/conexao.php";
 
 
 <?php
-
 mysqli_close($conexao);
-include "../includes/rodape.php";
 ?>

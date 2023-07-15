@@ -8,3 +8,13 @@ editar.php--> formulario com os dados dos clientes preenchido pronto para novas 
 deletar.php--> página que realiza a exclusão dos dados alunos 
 
 visualizar.php --> página com os dadados de um único cliente
+
+Um site de tatuagem criado por nathalia
+
+entrando pelo index-site.php você está sendo direcionado direto para a pagina principal e nela contem, a biografia do Daniel que é o cliente do site, o portifolio com algumas de suas fotos de tatuagem que já fez, os materiais utilizados e a biosegurança que utiliza para deixar tudo limpo.
+
+No cabeçalho do site temos a parte do contato, quando clicar nela você é direcionado para uma nova pagina onde tem você pode enviar uma mensagem para o Daniel, com as informações de email,nome,telefone e uma mensagem.
+
+Na parte do portifolio temos um botão com mais informações quando clicar ele aparece uma janela com a foto em um tamanho maior, com uma legenda e a logo do insta quando clicar vai direto para a aba do intagram onde ta a publicação da imagem. 
+
+Adicionado uma pasta de portifolio para fazer o banco de dados portifolio

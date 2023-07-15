@@ -1,5 +1,4 @@
 <?php
-include "../includes/cabecalho.php";
 include "../includes/menu.php";
 include "../includes/conexao.php";
 
@@ -18,14 +17,21 @@ $contato =  $um_cliente["contato"];
 $mensagem = $um_cliente["mensagem"];
 endwhile
 ?>
-
-<h2>Ficha cliente</h2>
-E_mail:<?php echo $email ?> <br>
-Nome: <?php echo $nome ?><br>
-Contato:<?php echo $contato ?> <br>
-Mensagem: <?php echo $mensagem ?><br>
+<div class="container">
+    <h2 class="text-center">Ficha cliente</h2>
+    <table class="table">
+        <thead class="table-dark">
+            <th>Nome:</th>
+            <th>Contato:</th>
+            <th>E_mail:</th>
+            <th>Mensagem:</th>
+        </thead>
+        <tbody class="border-dark bg-secondary-subtle">
+            <td><?php echo $email ?></td>
+            <td><?php echo $nome ?> <br></td>
+            <td><?php echo $contato?><br></td>
+            <td><?php echo $mensagem ?> <br></td>          
+        </tbody>
 <?php
 mysqli_close($conexao);
-include "../includes/rodape.php";
-
 ?>

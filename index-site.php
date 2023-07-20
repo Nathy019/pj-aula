@@ -57,8 +57,8 @@ include "./includes/cabecalho.php"
                         a começar na área, hoje fazem 2 anos que tatuo,
                         comecei por hobby e consequentemente
                         hoje é de onde vem minha maior renda.</p>
-                    <a href="https://api.whatsapp.com/send?phone=5519994412860&fbclid=PAAaZhRJT6BwdZ5bT99kfirR_0fhjNH9xlZMsoIGKzUdw3mrQseFQLCteY6Jk" class="m-3 "><img src="imagem/zap.png" style="width: 50px;"></a>
-                    <a href="https://www.instagram.com/daanihell.ttt/" class=" m-2 "><img src="imagem/insta.png" style="width: 50px;"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5519994412860&fbclid=PAAaZhRJT6BwdZ5bT99kfirR_0fhjNH9xlZMsoIGKzUdw3mrQseFQLCteY6Jk" class="m-3 "><img src="imagem/zap.png" style="width: 35px;"></a>
+                    <a href="https://www.instagram.com/daanihell.ttt/" class=" m-2 "><img src="imagem/insta.png" style="width: 35px;"></a>
                 </div>
             </div>
         </div>
@@ -73,15 +73,15 @@ include "./includes/modal.php"
 
 <!-- começo dos cards de biosegurança e materiais -->
 <div id="material">
-<a href="#body" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0"  > <h2 class="text-center">MATERIAL</h2></a>
+<a href="#body" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0"  > <h2 class="text-center"></h2></a>
     <div class="card-group">
         <div class="card text-bg-secondary bg-opacity-10 m-5 p-2 mx-auto p-2" style="max-width: 540px;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="imagem/bioo.png" class="img-fluid rounded-start" alt="...">
+            <div class="row g-0 m-3">
+                <div class="col-md-5 mx-auto">
+                <a href="#body" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0"> <img src="imagem/bioo.png" class="img-fluid" alt="..."></a>
                 </div>
-                <div class="col-md-8">
-                    <div class="card-body">
+                <div class="col-md-8 mx-auto ">
+                    <div class="card-body ">
                         <h5 class="card-title">BIOSSEGURANÇA</h5>
                         <p class="card-text">Plático filme (pvc) <br>
                             Papel toalha<br>
@@ -100,10 +100,10 @@ include "./includes/modal.php"
         </div>
         <div class="card text-bg-secondary bg-opacity-10 m-5 p-2" style="max-width: 540px;">
             <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="imagem/luva.png" class="img-fluid rounded-start " alt="...">
+                <div class="col-md-5 mx-auto">
+                <a href="#body" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0"><img src="imagem/luva.png" class="img-fluid rounded-start " alt="..."></a>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 mx-auto">
                     <div class="card-body">
                         <h5 class="card-title">MATERIAIS</h5>
                         <p class="card-text">Maquina<br>

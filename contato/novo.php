@@ -26,7 +26,7 @@ include "../includes/menu.php";
             </div>
         </div>
         <div class="d-grid gap-2 col-2 mx-auto p-2 ">
-            <button class=" btn btn-outline-light" type="submit">Enviar</button>
+           <a > <button href="../index-site.php"class=" btn btn-outline-light" type="submit">Enviar</button></a>
         </div>
     </div>
 

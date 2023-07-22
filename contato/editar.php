@@ -18,7 +18,7 @@ endwhile;
 <form method="post" action="atualizar.php?id=<?php echo $id; ?>">
     <div class="container">
         <div class="form-floating mb-2 ">
-            E_mail: <input name="email" class="form-control" id="floatingInputDisabled" value="<?php echo $email; ?>">
+            E_mail: <input name="email" class="form-control"  value="<?php echo $email; ?>">
         </div>
         <div class="form-floating mb-3">
             Nome: <input name="nome" class="form-control" id="floatingInputDisabled" value="<?php echo $nome; ?>">
@@ -28,7 +28,6 @@ endwhile;
         </div>
         <div class="form-floating mb-3">
             Mensagem: <input name="mensagem" class="form-control" id="floatingInputDisabled"  value="<?php echo $mensagem; ?>">
-        </div>
         <div class="d-grid gap-2 col-6 mx-auto">
             <button class=" btn btn-outline-light" type="submit">Atualizar</button>
         </div>

@@ -5,11 +5,11 @@ include "../includes/conexao.php";
 $id = $_GET["id"];
 $nome_foto = "";
 $sql = "select * from portfolio where id = $id";
-$todos_os_clientes = mysqli_query($conexao, $sql);
-while ($um_cliente = mysqli_fetch_assoc($todos_os_clientes)) :
-    $nome_foto = $um_cliente["nome"];
-    $foto = $um_cliente["foto"];
-    $descricao_foto = $um_cliente["descricao"];
+$todas_as_fotos = mysqli_query($conexao, $sql);
+while ($uma_foto = mysqli_fetch_assoc($todas_as_fotos)) :
+    $nome_foto = $uma_foto["nome"];
+    $foto = $uma_foto["foto"];
+    $descricao_foto = $uma_foto["descricao"];
 endwhile;
 ?>
 <h1 class="text-center">Editar portifolio <?php echo $id; ?></h1>

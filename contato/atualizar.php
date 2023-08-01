@@ -1,5 +1,5 @@
 <?php 
-include "../includes/menu.php";
+include "../includes/menu_painel.php.php";
 include "../includes/conexao.php";
 $id =$_GET ["id"];
 

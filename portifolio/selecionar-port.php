@@ -1,18 +1,21 @@
 <?php
-include "../includes/menu.php";
+include "../includes/menu_painel.php";
 include "../includes/conexao.php";
+
 ?>
 
-<h1 class="text-center">Módolo das Fotos</h1>
+<h1 class="text-center">Módolo de contatos</h1>
 <p class="text-center">
-    <a href="novo-port.php"> Adicionar uma nova foto</a>
+    <a href="novo-port.php"> Adicionar um novo contato</a>
 </p>
-<h2 class="text-center">Listagem de foto</h2>
+<h2 class="text-center">Listagem contato</h2>
 <table class="table">
     <tr class="table-dark">
+        <td>Código</td>
         <td>Nome da foto</td>
         <td>Foto</td>
-        <td>Descriçao</td>
+        <td>Descrição</td>
+        <td>Açoes</td>
     </tr>
     <?php
     $sql = "select * from portifolio";
@@ -22,7 +25,7 @@ include "../includes/conexao.php";
         <tr class="table-light">
             <td><?php echo $uma_foto['id_imagem']; ?></td>
             <td><?php echo $uma_foto['nome_foto']; ?></td>
-            <td><img src="<?php echo $uma_foto['foto']; ?>" width="250rempx"></td>
+            <td><img src="<?php echo $uma_foto['foto']; ?>"></td>
             <td><?php echo $uma_foto['descricao']; ?></td>
             <!-- add foto img src="php echo +variavel [nome do campo]"
         img src="php $um_portifolio[foto1];php "whidth = "100" "

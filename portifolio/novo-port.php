@@ -1,5 +1,5 @@
 <?php
-include "../includes/menu.php";
+include "../includes/menu_painel.php";
 ?>
 <form class="container" action="inserir-port.php" method="post">
     <div class="container m-2">
@@ -7,7 +7,7 @@ include "../includes/menu.php";
         <p class="text-center">Vamos cadastrar uma nova foto no sistema.</p>
         <div class="row g-3 ">
             <div class="col-6 mx-auto p-2">
-                Nome da Foto: <input class="form-control" name="nome" placeholder="nome da foto" required maxlength="150">
+                Nome da Foto: <input class="form-control" name="nome_foto" placeholder="nome da foto" required maxlength="150">
             </div>
             <div class="row">
                 <div class="col-6 mx-auto p-2">

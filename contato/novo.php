@@ -1,5 +1,5 @@
 <?php
-include "../includes/menu.php";
+include "../includes/menu_painel.php";
 ?>
 <form class="container" action="inserir.php" method="post">
     <div class="container m-2">

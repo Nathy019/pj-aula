@@ -1,13 +1,11 @@
 <?php
 include "../includes/conexao.php";
-$email = $_POST["email"];
-$nome = $_POST["nome"];
-$contato = $_POST["contato"];
-$mensagem = $_POST["mensagem"];
-$sql = "insert into cliente(email,nome,contato,mensagem) values('$email', '$nome','$contato', '$mensagem')";
+$nome_foto = $_POST["nome_foto"];
+$foto = $_POST["nome"];
+$descricao = $_POST["descricao"];
+$sql = "insert into portifolio(nome_foto,foto,descricao) values('$nome_foto','$foto','$descricao')";
 mysqli_query($conexao, $sql);
 mysqli_close($conexao);
 
-header("location: selecionar.php");
-
+header("location: selecionar-port.php");
 ?>

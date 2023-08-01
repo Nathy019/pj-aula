@@ -2,15 +2,15 @@
 include "../includes/menu.php";
 include "../includes/conexao.php";
 
-$id = $_GET["id"];
+$id_imagem = $_GET["id"];
 
 $nome_foto = "";
 $foto = "";
 $descricao = "";
-$sql = "select * from portfolio where id = $id";
+$sql = "select * from portifolio where id = $id_imagem";
 $todas_as_fotos = mysqli_query($conexao, $sql);
 while ($uma_foto = mysqli_fetch_assoc($todas_as_fotos)):
-$nome_foto = $uma_foto["nome"];
+$nome_foto = $uma_foto["nome_foto"];
 $foto =  $uma_foto["foto"];
 $descricao =  $um_cliente["descricao"];
 endwhile

@@ -2,19 +2,19 @@
 include "../includes/menu.php";
 include "../includes/conexao.php";
 
-$id = $_GET["id"];
+$id_imagem  = $_GET["id"];
 $nome_foto = "";
-$sql = "select * from portfolio where id = $id";
+$sql = "select * from portifolio where id_imagem = $id_imagem";
 $todas_as_fotos = mysqli_query($conexao, $sql);
 while ($uma_foto = mysqli_fetch_assoc($todas_as_fotos)) :
-    $nome_foto = $uma_foto["nome"];
+    $nome_foto = $uma_foto["nome_foto"];
     $foto = $uma_foto["foto"];
     $descricao_foto = $uma_foto["descricao"];
 endwhile;
 ?>
-<h1 class="text-center">Editar portifolio <?php echo $id; ?></h1>
+<h1 class="text-center">Editar portifolio <?php echo $id_imagem; ?></h1>
 
-<form method="post" action="atualizar.php?id=<?php echo $id; ?>">
+<form method="post" action="atualizar.php?id=<?php echo $id_imagem; ?>">
     <div class="container">
         <div class="form-floating mb-2 ">
             nome foto: <input name="email" class="form-control"  value="<?php echo $nome_foto; ?>">

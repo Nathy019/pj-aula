@@ -9,7 +9,7 @@ include "../includes/menu.php";
         </div>
         <div class="row text-center">
             <div class="col m-5 border rounded pt-3 pb-3">
-                <a href="../portifolio/editar-port.php" class="btn">
+                <a href="../portifolio/selecionar-port.php" class="btn">
                     <img src="../imagem/icon_port.png">
                     <br>
                     <p class="text-light">Portifolio</p>

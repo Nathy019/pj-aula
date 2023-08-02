@@ -16,10 +16,10 @@
         <div class="container m-auto">
             <div class="row">
                 <div class="col text-center">
-                    <a href="../index-site.php">
+                    <a href="../login/login.php">
                         <img style="width: 80px; padding:5px;" src="../imagem/logo.png" width="150">
                     </a>
-                    <h2>DAANIEL</h2>
+                    <a href="../index-site.php" class=" link-light link-offset-2 link-underline link-underline-opacity-0 " ><h2>DAANIEL</h2></a>
                 </div>
             </div>
         </div>

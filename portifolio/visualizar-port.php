@@ -24,9 +24,9 @@ endwhile
             <th>Desscrição:</th>
         </thead>
         <tbody class="border-dark bg-secondary-subtle">
-            <td><?php echo $nome_foto ?></td>
-            <td><?php echo $foto ?> <br></td>
-            <td><?php echo $descricao ?><br></td>
+            <td><?php echo $nome_foto?></td>
+            <td><?php echo $foto?><br></td>
+            <td><?php echo $descricao?><br></td>
         </tbody>
         <?php
         mysqli_close($conexao);

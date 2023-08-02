@@ -4,9 +4,9 @@ include "../includes/conexao.php";
 
 ?>
 
-<h1 class="text-center">Módolo de contatos</h1>
+<h1 class="text-center">Módolo de fotos</h1>
 <p class="text-center">
-    <a href="novo-port.php"> Adicionar um novo contato</a>
+    <a href="novo-port.php"> Adicionar uma nova foto</a>
 </p>
 <h2 class="text-center">Listagem contato</h2>
 <table class="table">
@@ -24,11 +24,11 @@ include "../includes/conexao.php";
     ?>
         <tr class="table-light">
             <td><?php echo $uma_foto['id_imagem']; ?></td>
-            <td><?php echo $uma_foto['nome_foto']; ?></td>
-            <td><img src="<?php echo $uma_foto['foto']; ?>"></td>
+            <td><?php echo $uma_foto['nome_foto']; ?></td> 
+            <td><img src="<?php $uma_foto['foto']; ?> " width="250rem" ></td>
             <td><?php echo $uma_foto['descricao']; ?></td>
             <!-- add foto img src="php echo +variavel [nome do campo]"
-        img src="php $um_portifolio[foto1];php "whidth = "100" "
+        
         -->
             <td>
                 <a href="visualizar-port.php?id=<?php echo $uma_foto['id_imagem'] ?>"><img src="../imagem/icon_visualizar.png" width="25px"></a>

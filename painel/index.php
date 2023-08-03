@@ -1,5 +1,5 @@
 <?php
-include "../includes/menu_painel.php";
+include "../includes/menu.php";
 ?>
 <div class="container-fluid">
         <div class="row">

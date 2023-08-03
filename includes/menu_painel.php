@@ -19,7 +19,7 @@
                     <a href="../painel/index.php">
                         <img style="width: 80px; padding:5px;" src="../imagem/logo.png" width="150">
                     </a>
-                    <h2>DAANIEL</h2>
+                    <a href="../login/login.php"  class=" link-light link-offset-2 link-underline link-underline-opacity-0 "><h2>DAANIEL</h2></a>
                 </div>
             </div>
         </div>

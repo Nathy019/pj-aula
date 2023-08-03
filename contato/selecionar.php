@@ -1,5 +1,5 @@
 <?php
-include "../includes/menu.php";
+include "../includes/menu_painel.php";
 include "../includes/conexao.php";
 
 ?>
@@ -34,7 +34,7 @@ include "../includes/conexao.php";
         -->
             <td>
                 <a href="visualizar.php?id=<?php echo $um_cliente['id'] ?>"><img src="../imagem/icon_visualizar.png" width="25px"></a>
-                <a href="editar.php?id=<?php echo $um_cliente['id']?>"><img src="../imagem/icon_edit.png" width="25px"></a>
+               <!-- <a href="editar.php?id=<?#php echo $um_cliente['id']?>"><img src="../imagem/icon_edit.png" width="25px"></a>-->
                 <a href="deletar.php?id=<?php echo $um_cliente['id']?>"><img src="../imagem/delet.png" width="25px"></a>
             </td>
         </tr>

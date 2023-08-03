@@ -1,4 +1,35 @@
-selecionar.php --> listagem de contatos, botaão para cadastro de um novo cliente 
+Um site de tatuagem criado por nathalia
+
+entrando pelo index-site.php você está sendo direcionado direto para a pagina principal e nela contem, a biografia do Daniel que é o cliente do site, o portifolio com algumas de suas fotos de tatuagem que já fez, os materiais utilizados e a biosegurança que utiliza para deixar tudo limpo.
+
+No cabeçalho do site temos a parte do contato, quando clicar nela você é direcionado para uma nova pagina onde tem você pode enviar uma mensagem para o Daniel, com as informações de email,nome,telefone e uma mensagem.
+
+Na parte do portifolio temos um botão com mais informações quando clicar ele aparece uma janela com a foto em um tamanho maior, com uma legenda e a logo do insta quando clicar vai direto para a aba do intagram onde ta a publicação da imagem.
+
+pasta imagem ---> onde fica todas as imagens do site, logo, portifolio, icons...
+
+pasta includes  ---> atalho utilizado para deixar o codigo menor.
+cabecalho.php ---> onde fica a parte do nosso cabeçalho do site principal index-site.php.
+conexao.php ---> para fazer a conexão total do nosso banco de dados ela é utilizada em quase todas as paginas feitas.
+menu-painel.php ---> seria a parte do menu que esta sendo usada para o index.php que quando se clica na logo do cliente ele te manda para o index.php do painel e ao clicar no nome do cliente ele te manda para login.php.
+menu.php ---> está sendo utilizado em alguns arquivos de banco de dados que ao clicar na logo do cliente ele te manda para o login.php e ao clicar na logo ele te manda para o site principaldo cliente. 
+modal.php ---> é a parte onde estaa janela modal do portfolio do cliente que seria a janela que aparece quando cliclamos no botão do ver detalhes.
+rodape.php ---> parte onde foi feita o rodade do site onde contem as formas de pagamentos e o local onde é o studio de tatuagem do cliente.
+
+pasta login 
+temos dois arquivos 
+login.php ---> é a parte onde temos o codigo de login para entrar dentro do sistema de banco de dados do site 
+validar.php ---> parte que validamos o login
+
+pasta painel 
+index.php ---> é onde temos o codigo do nosso painel para ver a informações que o cliente deixou em uma parte mais visual do site.
+logout.php ---> é a parte que damos permição quando entramos atravez do arquivo login.
+
+
+parte de banco de dados 
+pasta contato ---> local onde está os arquivos de banco de dados.
+
+selecionar.php --> listagem de contatos, botão para cadastro de um novo cliente 
 
 novo.php --> formulario para cadstro de um novo cliente
 inserir.php--> realizar a inserção no BD
@@ -9,12 +40,21 @@ deletar.php--> página que realiza a exclusão dos dados alunos
 
 visualizar.php --> página com os dadados de um único cliente
 
-Um site de tatuagem criado por nathalia
 
-entrando pelo index-site.php você está sendo direcionado direto para a pagina principal e nela contem, a biografia do Daniel que é o cliente do site, o portifolio com algumas de suas fotos de tatuagem que já fez, os materiais utilizados e a biosegurança que utiliza para deixar tudo limpo.
+pasta portifolio ---> local onde está os arquivos de banco de dados.
 
-No cabeçalho do site temos a parte do contato, quando clicar nela você é direcionado para uma nova pagina onde tem você pode enviar uma mensagem para o Daniel, com as informações de email,nome,telefone e uma mensagem.
+selecionar-port.php --> listagem de contatos, botão para cadastro de um novo cliente 
 
-Na parte do portifolio temos um botão com mais informações quando clicar ele aparece uma janela com a foto em um tamanho maior, com uma legenda e a logo do insta quando clicar vai direto para a aba do intagram onde ta a publicação da imagem. 
+novo-port.php --> formulario para cadstro de um novo cliente
+inserir-port.php--> realizar a inserção no BD
 
-Adicionado uma pasta de portifolio para fazer o banco de dados portifolio
+editar-port.php--> formulario com os dados dos clientes preenchido pronto para novas modificação
+
+deletar-port.php--> página que realiza a exclusão dos dados alunos 
+
+visualizar-port.php --> página com os dadados de um único cliente
+
+
+
+ 
+

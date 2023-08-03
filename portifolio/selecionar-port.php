@@ -25,14 +25,14 @@ include "../includes/conexao.php";
         <tr class="table-light">
             <td><?php echo $uma_foto['id_imagem']; ?></td>
             <td><?php echo $uma_foto['nome_foto']; ?></td> 
-            <td><img src="<?php $uma_foto['foto']; ?> " width="250rem" ></td>
+            <td><img src="<?php echo $uma_foto['foto']; ?> " width="250rem" ></td>
             <td><?php echo $uma_foto['descricao']; ?></td>
             <!-- add foto img src="php echo +variavel [nome do campo]"
         
         -->
             <td>
                 <a href="visualizar-port.php?id=<?php echo $uma_foto['id_imagem'] ?>"><img src="../imagem/icon_visualizar.png" width="25px"></a>
-                <a href="editar-port.php?id=<?php echo $uma_foto['id_imagem']?>"><img src="../imagem/icon_edit.png" width="25px"></a>
+               <!-- <a href="editar-port.php?id= <?#php echo $uma_foto['id_imagem']?>"><img src="../imagem/icon_edit.png" width="25px"></a>-->
                 <a href="deletar-port.php?id=<?php echo $uma_foto['id_imagem']?>"><img src="../imagem/delet.png" width="25px"></a>
             </td>
         </tr>
